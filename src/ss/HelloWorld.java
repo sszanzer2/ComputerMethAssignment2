@@ -15,8 +15,11 @@ public class HelloWorld {
 		int secondNum= keyboard.nextInt();
 		
 		Adder sum = new Adder(firstNum, secondNum);
+		Subtractor sub = new Subtractor(firstNum, secondNum);
 		
 		System.out.println("The sum of your two numbers is: " + sum.add(firstNum, secondNum));
+		
+		System.out.println("The difference of the two numbers is: " +sub.subtract(firstNum, secondNum));
 	}
 
 }
